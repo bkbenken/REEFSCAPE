@@ -32,7 +32,6 @@ public class Elevator extends SubsystemBase {
         follow.follow(9, true); 
         motorTwo.configure(follow, ResetMode.kResetSafeParameters, PersistMode.kNoPersistParameters);
 
-
         closedLoopController = motorOne.getClosedLoopController();
 
         elevatorEncoder = new DutyCycleEncoder(0);
