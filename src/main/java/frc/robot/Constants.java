@@ -28,4 +28,16 @@ public final class Constants {
         public static final double RIGHT_X_DEADBAND = 0.1;
         public static final double TURN_CONSTANT = 6;
     }
+
+    public static class ElevatorConstants {
+        public static final double MAX_VELOCITY = 1.0; 
+        public static final double MAX_ACCELERATION = 0.5; 
+        public static final double ENCODER_TO_METERS = 0.01; 
+        
+        public static final double ELEVATOR_KP = 0.1;
+        public static final double ELEVATOR_KI = 0.0;
+        public static final double ELEVATOR_KD = 0.0;
+    }
+
+    //23.5 
 }
